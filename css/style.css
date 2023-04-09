@@ -84,6 +84,20 @@ img{
     justify-content: space-between;
 }
 
-/* following code is for editing the second layer */
+/* following code is for editing the third layer */
 
+.container-3{
+    background-color: #e5e7eB;
+}
 
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.me{
+    font-weight: bold;
+    text-align: end;
+    font-size: 22px;
+}
