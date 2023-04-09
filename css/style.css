@@ -88,6 +88,9 @@ img{
 
 .container-3{
     background-color: #e5e7eB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote{
@@ -100,4 +103,55 @@ img{
     font-weight: bold;
     text-align: end;
     font-size: 22px;
+}
+
+.text-group
+{
+    width:850px;
+}
+
+/* following code is for editing the second layer */
+
+.head-text{
+    font-size: 36px;
+    font-weight: bold;
+    
+}
+
+.social-media a{
+    color: rgb(0, 122, 122);
+}
+
+.social{
+    display: flex;
+    gap:1em;
+}
+
+.social img
+{
+    width: 100px;
+    height: 100px;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.social-media{
+    text-align:justify;
+}
+
+.social1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:200px;
+}
+
+.platform{
+    text-align: center;
 }
