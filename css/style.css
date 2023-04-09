@@ -1,3 +1,9 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
 /* following code is for editing the top or 1st layer*/
 
 /* To remove decorations in link and list items */
@@ -154,4 +160,17 @@ img{
 
 .platform{
     text-align: center;
+}
+
+/* footer of the page */
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937 ;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 12px;
 }
