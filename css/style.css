@@ -1,3 +1,5 @@
+/* body of the page */
+
 body{
     font-family: sans-serif;
     padding: 0;
@@ -5,6 +7,7 @@ body{
 }
 
 /* following code is for editing the top or 1st layer*/
+
 
 /* To remove decorations in link and list items */
 
@@ -50,7 +53,8 @@ ul{
 /* text and image portion */
 
 .container-1{
-    background-color:#1F2937;   
+    background-color:#1F2937;
+    height: 380px;   
 }
 
 .maintext{
@@ -90,31 +94,6 @@ img{
     justify-content: space-between;
 }
 
-/* following code is for editing the third layer */
-
-.container-3{
-    background-color: #e5e7eB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.quote{
-    font-size: 36px;
-    font-style: italic;
-    color: #1f2937;
-}
-
-.me{
-    font-weight: bold;
-    text-align: end;
-    font-size: 22px;
-}
-
-.text-group
-{
-    width:850px;
-}
 
 /* following code is for editing the second layer */
 
@@ -143,7 +122,8 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    height: 380px;
 
 }
 
@@ -160,6 +140,70 @@ img{
 
 .platform{
     text-align: center;
+}
+
+
+/* following code is for editing the third layer */
+
+.container-3{
+    background-color: #e5e7eB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.me{
+    font-weight: bold;
+    text-align: end;
+    font-size: 22px;
+}
+
+.text-group
+{
+    width:850px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+/* code for editing the fourth and final layer */
+
+.container-4
+{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.group-components{
+   
+    background-color: #3882f6;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    padding:25px;
+    justify-content: space-between;
+   
+    
+}
+
+button{
+    background-color: #3882f6;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: solid #b9bcc1 3px;
+    border-radius: 10px;
+    width: 106px;
 }
 
 /* footer of the page */
