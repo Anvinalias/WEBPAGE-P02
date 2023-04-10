@@ -3,7 +3,7 @@
 body{
     font-family: sans-serif;
     padding: 0;
-    margin: 0;
+    margin: 0;  
 }
 
 /* following code is for editing the top or 1st layer*/
@@ -22,6 +22,7 @@ a{
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+    font-weight: bold;
    
 }
 
@@ -43,44 +44,43 @@ ul{
     align-items: center;
 }
 
-.logo{
-    font-size: 24px;
-    font-family: sans-serif;
-    font-weight: bold;
-    color: #f9faf8
+.logo img{
+    height:50px;
+    width:50px;
+    margin-top: 12px;
+    margin-bottom: 5px
 }
 
 /* text and image portion */
 
 .container-1{
     background-color:#1F2937;
-    height: 380px;   
+    height: 400px;  
 }
 
 .maintext{
     color:  #f9faf8;
     font-weight: bold;
     font-size: 48px;
-    font-family: sans-serif;
 }
 
 .subtext{
-    font-size: 18px;
+    font-size: 20px;
     color: #e5e7eb;
-    font-family: sans-serif;
 }
 
 button{
     background-color: #3882f6;
-    padding-left: 12px;
-    padding-right: 12px;
-    font-size: 18px;
-    font-weight: bold;
+    padding:2px 12px;
+    font-size: 20px;
     margin-top: 10px;
-    box-sizing: border-box;
     border: solid #3882f6 3px;
     border-radius: 10px;
     width: 106px;
+}
+
+button>a {
+    font-weight: bold;
 }
 
 img{
@@ -92,13 +92,22 @@ img{
 .center{
     display: flex;
     justify-content: space-between;
-    height: 250px;
+    height: 300px;
     align-items: center;
 
 }
 
+/* align entire content */
+
 .group-1{
     padding: 0 117px;
+    width:1020px;
+ 
+}
+
+.align{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -143,6 +152,11 @@ img{
     flex-direction: column;
     align-items: center;
     width:200px;
+    border: solid blue 3px;
+    padding:6px;
+    border-radius: 16px;
+    justify-content: center;
+    margin:5px;
 }
 
 .platform{
@@ -169,12 +183,12 @@ img{
     font-weight: bold;
     text-align: end;
     font-size: 22px;
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 .text-group
 {
-    width:850px;
+    width:840px;
     padding-top: 80px;
     padding-bottom: 70px;
 }
@@ -186,6 +200,7 @@ img{
     background-color: white;
     height: 300px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -218,7 +233,7 @@ button{
     background-color: #3882f6;
     padding-left: 12px;
     padding-right: 12px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
     border: solid #b9bcc1 3px;
