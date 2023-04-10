@@ -58,13 +58,13 @@ ul{
     height: 400px;  
 }
 
-.maintext{
+.main-text{
     color:  #f9faf8;
     font-weight: bold;
     font-size: 48px;
 }
 
-.subtext{
+.sub-text{
     font-size: 20px;
     color: #e5e7eb;
 }
@@ -79,14 +79,9 @@ button{
     width: 106px;
 }
 
-button>a {
-    font-weight: bold;
-}
-
 img{
     width: auto;
-    height: 150px;
-    
+    height: 150px;   
 }
 
 .center{
@@ -94,20 +89,18 @@ img{
     justify-content: space-between;
     height: 300px;
     align-items: center;
-
 }
 
 /* align entire content */
 
-.group-1{
-    padding: 0 117px;
-    width:1020px;
- 
-}
-
 .align{
     display: flex;
     justify-content: center;
+}
+
+.group-1{
+    padding: 0 117px;
+    width:1020px;
 }
 
 
@@ -115,8 +108,7 @@ img{
 
 .head-text{
     font-size: 36px;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
 
 .social-media a{
@@ -140,11 +132,6 @@ img{
     align-items: center;
     justify-content: space-evenly;
     height: 380px;
-
-}
-
-.social-media{
-    text-align:justify;
 }
 
 .social1{
@@ -203,9 +190,7 @@ img{
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
-    
+    align-items: center;   
 }
 
 .group-components{
@@ -216,8 +201,7 @@ img{
     align-items: center;
     padding: 25px 60px;
     justify-content: space-between;
-    color: white;
-   
+    color: white;   
 }
 
 .first-text{
@@ -228,6 +212,7 @@ img{
 .second-text{
     font-size: 18px;
 }
+
 .group-components
 button{
     background-color: #3882f6;
@@ -251,6 +236,5 @@ button{
     background-color: #1F2937 ;
     font-size: 18px;
     color: #E5E7EB;
-    padding: 12px;
-    
+    padding: 12px;   
 }
