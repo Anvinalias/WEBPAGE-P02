@@ -32,7 +32,7 @@ li{
 
 ul{
     display: flex;
-    gap: 1em;
+    gap: 3em;
 }
 
 /* Top most part having links and logo */
@@ -92,6 +92,13 @@ img{
 .center{
     display: flex;
     justify-content: space-between;
+    height: 250px;
+    align-items: center;
+
+}
+
+.group-1{
+    padding: 0 117px;
 }
 
 
@@ -162,6 +169,7 @@ img{
     font-weight: bold;
     text-align: end;
     font-size: 22px;
+    padding-right: 20px;
 }
 
 .text-group
@@ -205,11 +213,12 @@ img{
 .second-text{
     font-size: 18px;
 }
-
+.group-components
 button{
     background-color: #3882f6;
     padding-left: 12px;
     padding-right: 12px;
+    font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
     border: solid #b9bcc1 3px;
