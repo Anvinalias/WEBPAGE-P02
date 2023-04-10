@@ -181,6 +181,8 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    
 }
 
 .group-components{
@@ -189,10 +191,19 @@ img{
     width: 900px;
     display: flex;
     align-items: center;
-    padding:25px;
+    padding: 25px 60px;
     justify-content: space-between;
+    color: white;
    
-    
+}
+
+.first-text{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.second-text{
+    font-size: 18px;
 }
 
 button{
@@ -217,4 +228,5 @@ button{
     font-size: 18px;
     color: #E5E7EB;
     padding: 12px;
+    
 }
