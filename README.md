@@ -1,4 +1,4 @@
-# CSS-P01
+# WEBPAGE-P01
 Landing a webpage.
 
 So this is my second project as per TOP curriculum.
