@@ -81,13 +81,13 @@ button {
 
 img {
     width: auto;
-    height: 150px;
+    height: 260px;
 }
 
 .center {
     display: flex;
     justify-content: space-between;
-    height: 260px;
+    height: 250px;
     align-items: center;
 }
 
