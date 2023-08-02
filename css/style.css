@@ -1,0 +1,235 @@
+/* body of the page */
+
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* following code is for editing the top or 1st layer*/
+
+
+/* To remove decorations in link and list items */
+
+li a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    gap: 3em;
+}
+
+/* Top most part having links and logo */
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    margin-top: 12px;
+    margin-bottom: 5px
+}
+
+/* text and image portion */
+
+.container-1 {
+    background-color: #1F2937;
+    height: 400px;
+}
+
+.main-text {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.sub-text {
+    font-size: 20px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 2px 12px;
+    font-size: 20px;
+    margin-top: 10px;
+    border: solid #3882f6 3px;
+    border-radius: 10px;
+    width: 106px;
+}
+
+img {
+    width: auto;
+    height: 150px;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    align-items: center;
+}
+
+/* align entire content */
+
+.align {
+    display: flex;
+    justify-content: center;
+}
+
+.group-1 {
+    padding: 0 117px;
+    width: 1020px;
+}
+
+
+/* following code is for editing the second layer */
+
+.head-text {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.social-media a {
+    color: rgb(0, 122, 122);
+}
+
+.social {
+    display: flex;
+    gap: 1em;
+}
+
+.social img {
+    width: 100px;
+    height: 100px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 380px;
+}
+
+.social1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    border: solid blue 3px;
+    padding: 6px;
+    border-radius: 16px;
+    justify-content: center;
+    margin: 5px;
+}
+
+.platform {
+    text-align: center;
+}
+
+
+/* following code is for editing the third layer */
+
+.container-3 {
+    background-color: #e5e7eB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.me {
+    font-weight: bold;
+    text-align: end;
+    font-size: 22px;
+    padding-right: 50px;
+}
+
+.text-group {
+    width: 840px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+/* code for editing the fourth and final layer */
+
+.container-4 {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.group-components {
+
+    background-color: #3882f6;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    padding: 25px 60px;
+    justify-content: space-between;
+    color: white;
+}
+
+.first-text {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.second-text {
+    font-size: 18px;
+}
+
+.group-components button {
+    background-color: #3882f6;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: solid #b9bcc1 3px;
+    border-radius: 10px;
+    width: 106px;
+}
+
+/* footer of the page */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 12px;
+}
